@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="github-private-ssh"
+		fetch="ssh://git@gitlab.lx.andrepinela.net" />
+	<remote  name="blobs"
+		fetch="http://github.com" />
+
+	<project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine"
+		remote="blobs" />
+	<project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus"
+        	remote="blobs" />
+
+	<!-- Samsung Galaxy W - Ancora
+        <project name="apinela/android_vendor_samsung_ancora" path="vendor/samsung/ancora"
+                remote="github" />
+        <project name="apinela/android_kernel_samsung_ancora" path="kernel/samsung/ancora"
+                remote="github" />
+        <project name="apinela/android_device_samsung_ancora" path="device/samsung/ancora"
+                remote="github" /> -->
+
+	<!-- Nexus 7 Kernel 3.4 Project -->
+	<project name="grouper/proprietary_vendor_nvidia" path="vendor/nvidia"
+                remote="github-private-ssh" />
+	<project name="grouper/proprietary_vendor_asus" path="vendor/asus"
+                remote="github-private-ssh" />
+	<project name="grouper/android_kernel_asus_grouper" path="kernel/asus/grouper"
+		remote="github-private-ssh" />
+	<project name="grouper/android_device_asus_grouper" path="device/asus/grouper"
+		remote="github-private-ssh" />
+	<project name="grouper/android_device_asus_tilapia" path="device/asus/tilapia"
+		remote="github-private-ssh" />
+	
+	<!-- Nexus 9
+	<project name="CyanogenMod/android_kernel_htc_flounder" path="kernel/htc/flounder"
+		remote="github" />
+	<project name="CyanogenMod/android_device_htc_flounder" path="device/htc/flounder"
+		remote="github" />
+	<project name="CyanogenMod/android_device_htc_flounder_lte" path="device/htc/flounder_lte"
+		remote="github" /> -->
+
+</manifest>
