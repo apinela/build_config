@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<!--
 	<remote name="github-private-ssh"
 		fetch="ssh://git@gitlab.lx.andrepinela.net" />
 	<remote  name="blobs"
@@ -23,7 +24,7 @@
 	<project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine"
 		remote="blobs" />
 	<project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus"
-        	remote="blobs" />
+        	remote="blobs" /> -->
 
 	<!-- Samsung Galaxy W - Ancora
         <project name="apinela/android_vendor_samsung_ancora" path="vendor/samsung/ancora"
@@ -33,7 +34,7 @@
         <project name="apinela/android_device_samsung_ancora" path="device/samsung/ancora"
                 remote="github" /> -->
 
-	<!-- Nexus 7 Kernel 3.4 Project -->
+	<!-- Nexus 7 Kernel 3.4 Project
 	<project name="grouper/proprietary_vendor_nvidia" path="vendor/nvidia"
                 remote="github-private-ssh" />
 	<project name="grouper/proprietary_vendor_asus" path="vendor/asus"
@@ -43,7 +44,7 @@
 	<project name="grouper/android_device_asus_grouper" path="device/asus/grouper"
 		remote="github-private-ssh" />
 	<project name="grouper/android_device_asus_tilapia" path="device/asus/tilapia"
-		remote="github-private-ssh" />
+		remote="github-private-ssh" /> -->
 	
 	<!-- Nexus 9
 	<project name="CyanogenMod/android_kernel_htc_flounder" path="kernel/htc/flounder"
